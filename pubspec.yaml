@@ -19,6 +19,9 @@ dependencies:
   realm: ^0.2.0+alpha
   flutter_svg: ^1.0.3
 
+  #好看的ui
+  modal_bottom_sheet: ^2.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
