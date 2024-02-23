@@ -6,27 +6,35 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.15.1 <3.0.0"
+  sdk: ">=2.17.1 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  # 炒鸡好用的轮播
-  carousel_slider: ^4.0.0
-  #数据库
-  realm: ^0.2.0+alpha
-  flutter_svg: ^1.0.3
 
+  get: ^4.6.5
+
+  # 炒鸡好用的轮播
+  carousel_slider: 4.2.1
+  #数据库
+  realm: 1.3.0
+  flutter_svg: 2.0.7
   #好看的ui
-  modal_bottom_sheet: ^2.1.0
+  modal_bottom_sheet: 2.1.2
+  # 路径
+  path_provider: 2.0.15
+  # 串口通信
+  flutter_libserialport: 0.3.0
+  # 可以修改 yaml 文件
+  yaml_modify: ^1.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.0
+  flutter_lints: 2.0.2
 
 flutter:
 
